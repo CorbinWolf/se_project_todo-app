@@ -5,11 +5,13 @@ class Todo {
   }
 
   _setEventListeners() {
-    this._todoDeleteButton =
+    const todoDeleteButton =
       this._todoElement.querySelector(".todo__delete-btn");
-    this._todoDeleteButton.addEventListener("click", () => {
+
+    todoDeleteButton.addEventListener("click", () => {
       this._todoElement.remove();
     });
+
     this._todoCheckboxElement.addEventListener("change", () => {
       this._data.completed = !this._data.completed;
     });
@@ -28,6 +30,7 @@ class Todo {
   _getDate() {
     const todoDate = this._todoElement.querySelector(".todo__date");
     const dueDate = new Date(this._data.date);
+
     if (!isNaN(dueDate)) {
       todoDate.textContent = `Due: ${dueDate.toLocaleString("en-US", {
         year: "numeric",

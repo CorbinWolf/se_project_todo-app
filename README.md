@@ -1,17 +1,17 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+The Simple Todo App creates an streamlined way to track a verious amount of tasks.
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+To use the program, you can click on the "+ Add Todo" button and fill out the form. After submission, you can mark the todo off as completed, or delete it.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+OOP was implemented for the creation of the todos, and form validation.
 
 ## Deployment
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+- [CLICK HERE](https://corbinwolf.github.io/se_project_todo-app/)!
